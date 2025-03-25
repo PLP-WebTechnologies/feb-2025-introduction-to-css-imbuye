@@ -1,0 +1,89 @@
+/* Change the background color and text alignment */
+body {
+    background-color: #f4f4f4;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the heading */
+h1 {
+    color: #333;
+    font-size: 2rem;
+}
+
+/* Style the paragraph */
+.intro-text {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 20px;
+}
+
+/* Style the image */
+#styled-image {
+    width: 300px;
+    border: 5px solid #000;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Style the footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Content Section */
+.content {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styling */
+#styled-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #2575fc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+#styled-image:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
